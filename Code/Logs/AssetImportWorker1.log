@@ -15,7 +15,7 @@ C:/Users/Zac/2D blendtree animations
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49867
+49912
 Successfully changed project path to: C:/Users/Zac/2D blendtree animations
 C:/Users/Zac/2D blendtree animations
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Zac/2D blendtree animations
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14632] Host "[IP] 192.168.68.140 [Port] 0 [Flags] 2 [Guid] 1169499607 [EditorId] 1169499607 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-13C9S3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15036] Host "[IP] 192.168.68.140 [Port] 0 [Flags] 2 [Guid] 53969256 [EditorId] 53969256 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-13C9S3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14632] Host "[IP] 192.168.68.140 [Port] 0 [Flags] 2 [Guid] 1169499607 [EditorId] 1169499607 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-13C9S3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15036] Host "[IP] 192.168.68.140 [Port] 0 [Flags] 2 [Guid] 53969256 [EditorId] 53969256 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-13C9S3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 6.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009985 seconds.
-- Loaded All Assemblies, in  0.287 seconds
+Registered in 0.009428 seconds.
+- Loaded All Assemblies, in  0.286 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.195 seconds
-Domain Reload Profiling: 480ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.198 seconds
+Domain Reload Profiling: 482ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (101ms)
-		LoadAssemblies (97ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (99ms)
-				TypeCache.ScanAssembly (90ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (92ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (195ms)
+	FinalizeReload (198ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (150ms)
+		SetupLoadedEditorAssemblies (152ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 480ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.516 seconds
-Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.531 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.507 seconds
-Domain Reload Profiling: 1020ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.520 seconds
+Domain Reload Profiling: 1047ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (322ms)
-		LoadAssemblies (262ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (282ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (100ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (508ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (520ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (397ms)
+		SetupLoadedEditorAssemblies (410ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (281ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3501 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (100.0 KB). Loaded Objects now: 3969.
+Unloading 3499 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (99.6 KB). Loaded Objects now: 3967.
 Memory consumption went from 137.0 MB to 136.9 MB.
-Total: 2.777200 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.091800 ms MarkObjects: 2.333100 ms  DeleteObjects: 0.131600 ms)
+Total: 3.266000 ms (FindLiveObjects: 0.231700 ms CreateObjectMapping: 0.111400 ms MarkObjects: 2.775900 ms  DeleteObjects: 0.146300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,12 +184,260 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 576.591238 seconds.
-  path: Assets/Cosmonaut_Mesh_LOD1.obj
-  artifactKey: Guid(e48d8951ce04bd64497be9ccb111180d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cosmonaut_Mesh_LOD1.obj using Guid(e48d8951ce04bd64497be9ccb111180d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6e65aaf6e7a3392d648889aeb1a71f') in 0.105001 seconds
+  Time since last request: 2421.718815 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/floor2.prefab
+  artifactKey: Guid(39c0276e2611d524887d283de82ba031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/floor2.prefab using Guid(39c0276e2611d524887d283de82ba031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769270379a72d7068dcfa52dbc17f8a5') in 0.352902 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/wall-side1 (1).prefab
+  artifactKey: Guid(24c3963eeb98de045bccf02dd75332cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/wall-side1 (1).prefab using Guid(24c3963eeb98de045bccf02dd75332cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf54a975aa4a404c5c2d863c955c948') in 0.028821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/fabrics1.prefab
+  artifactKey: Guid(c0b7653931ba73a478f3cc6dda665fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/fabrics1.prefab using Guid(c0b7653931ba73a478f3cc6dda665fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab53eb118f3d2b1553548ba7d56b7bf') in 0.017456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel1.prefab
+  artifactKey: Guid(e2cc31ae991ad1743aa619de12197432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel1.prefab using Guid(e2cc31ae991ad1743aa619de12197432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f91c33832ce6537447cd825f1de90a') in 0.020170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail3.prefab
+  artifactKey: Guid(fdcd0282fdc5335459811f79eccf3493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail3.prefab using Guid(fdcd0282fdc5335459811f79eccf3493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a485a21bf5af1885882d448bd38d66') in 0.025952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail4.prefab
+  artifactKey: Guid(6b957ce4847a3294e86146e28f50e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail4.prefab using Guid(6b957ce4847a3294e86146e28f50e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e82ecff37d4bf1ff2033bcb932ecca') in 0.022718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/lamp.prefab
+  artifactKey: Guid(e458e4420a173c546935bdf6375bbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/lamp.prefab using Guid(e458e4420a173c546935bdf6375bbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c205cb6435f25704dd91a82d8fb88a1') in 0.020927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 26.984548 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Scenes/Config-01-bake/Lightmap-0_comp_light.exr
+  artifactKey: Guid(3c1f7f3d35bcff041b32308ca7910092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Scenes/Config-01-bake/Lightmap-0_comp_light.exr using Guid(3c1f7f3d35bcff041b32308ca7910092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90858a4786e5d153a691d2672a7a31f') in 0.030247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Scenes/Config-01-bake/ReflectionProbe-0.exr
+  artifactKey: Guid(fef110a0617a1e84985fa4812e37a550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Scenes/Config-01-bake/ReflectionProbe-0.exr using Guid(fef110a0617a1e84985fa4812e37a550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e53243c4509baeecda2972cac243a46') in 0.021295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Scenes/Config-01-bake/Lightmap-1_comp_light.exr
+  artifactKey: Guid(b8622827ef9d14a4a80754b70914f3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Scenes/Config-01-bake/Lightmap-1_comp_light.exr using Guid(b8622827ef9d14a4a80754b70914f3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6cce28ef6128657f15715cbd427b66') in 0.011422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9200.915461 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/collum2.prefab
+  artifactKey: Guid(e204acc61a39ddd4e9b03869496b25ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/collum2.prefab using Guid(e204acc61a39ddd4e9b03869496b25ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dd0f46c297b5d90ad1be2756f8ae91') in 0.037698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/qdetail-led3.prefab
+  artifactKey: Guid(c71d43382b7b17243a7162f73db626c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/qdetail-led3.prefab using Guid(c71d43382b7b17243a7162f73db626c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65970e16f0fcdcf0651bcde3e6abfde1') in 0.016735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail1 (1).prefab
+  artifactKey: Guid(1f57008b07ddf6a48968ef37d01f5f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail1 (1).prefab using Guid(1f57008b07ddf6a48968ef37d01f5f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff41d24fbbff2b08871ddf57d658436') in 0.019448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/wall-side1 (1).prefab
+  artifactKey: Guid(24c3963eeb98de045bccf02dd75332cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/wall-side1 (1).prefab using Guid(24c3963eeb98de045bccf02dd75332cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646c1a3a236a1c6d512c7803effa9ba7') in 0.016286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/lamp-detail1.prefab
+  artifactKey: Guid(8f3a8de2c028ed64fba4ed3c764fae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/lamp-detail1.prefab using Guid(8f3a8de2c028ed64fba4ed3c764fae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce5b53ba6d7f9e2b9aedb9fce9032a2') in 0.016981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/fabrics-detail1.prefab
+  artifactKey: Guid(10c3cb03378727a4f9f60437ab7beba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/fabrics-detail1.prefab using Guid(10c3cb03378727a4f9f60437ab7beba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf402eb581e19ff1dfad60c87adf07c') in 0.018348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/floor-main.prefab
+  artifactKey: Guid(8002f544734f7c540b85124ab96d5e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/floor-main.prefab using Guid(8002f544734f7c540b85124ab96d5e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4ab73aae42b36d60b7b6524b1b3289') in 0.014148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail3.prefab
+  artifactKey: Guid(fdcd0282fdc5335459811f79eccf3493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail3.prefab using Guid(fdcd0282fdc5335459811f79eccf3493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ac55ce2ad2c79e02ecb1497ddfe59') in 0.017012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/detail-led1.prefab
+  artifactKey: Guid(ea2bcd985b487d94e83170938910efeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/detail-led1.prefab using Guid(ea2bcd985b487d94e83170938910efeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ec07d79b12cdb29af738defc03ecae') in 0.017422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/led4.prefab
+  artifactKey: Guid(9c47be56e150031428b450d01abdcbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/led4.prefab using Guid(9c47be56e150031428b450d01abdcbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62f9c74d7d81110119e10c4addbd8e1') in 0.014958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel2.prefab
+  artifactKey: Guid(eaff7f56d3ac71c469524d7f5d1c210e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel2.prefab using Guid(eaff7f56d3ac71c469524d7f5d1c210e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa6fa05d60c7bf3e4800a675b8bb6dd') in 0.014593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel2 (1).prefab
+  artifactKey: Guid(130329d5cafdb0d4b998ba14c7aa9c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel2 (1).prefab using Guid(130329d5cafdb0d4b998ba14c7aa9c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27b6d9629ddfe6b11db74322ee1364b') in 0.014491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/lamp.prefab
+  artifactKey: Guid(e458e4420a173c546935bdf6375bbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/lamp.prefab using Guid(e458e4420a173c546935bdf6375bbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00757df171b4b759f3c5ca6c9139affe') in 0.015066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 18.764797 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/collum3.prefab
+  artifactKey: Guid(38db1cbd3e834564aa6dbaa7182afc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/collum3.prefab using Guid(38db1cbd3e834564aa6dbaa7182afc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa156ed4e831c59c7701d3370af7dd3') in 0.017438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/qdetail-led3.prefab
+  artifactKey: Guid(c71d43382b7b17243a7162f73db626c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/qdetail-led3.prefab using Guid(c71d43382b7b17243a7162f73db626c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8577d71f19ad4c112a8d874ca580ae') in 0.035039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/wall-side1 (1).prefab
+  artifactKey: Guid(24c3963eeb98de045bccf02dd75332cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/wall-side1 (1).prefab using Guid(24c3963eeb98de045bccf02dd75332cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a13c4efa9399e93a0632e8f7ca2c39') in 0.019643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/floor-detail2.prefab
+  artifactKey: Guid(1ec3e17620eec0648bbad5641ad6cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/floor-detail2.prefab using Guid(1ec3e17620eec0648bbad5641ad6cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d51936ccf59cbd616cc44dda19acfab') in 0.018329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/fabrics1.prefab
+  artifactKey: Guid(c0b7653931ba73a478f3cc6dda665fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/fabrics1.prefab using Guid(c0b7653931ba73a478f3cc6dda665fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61d49c85dc70e32db407112fa83dacb') in 0.013220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel1.prefab
+  artifactKey: Guid(e2cc31ae991ad1743aa619de12197432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel1.prefab using Guid(e2cc31ae991ad1743aa619de12197432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b545ca839344d766cb4284e4a90b8c') in 0.019033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail3.prefab
+  artifactKey: Guid(fdcd0282fdc5335459811f79eccf3493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail3.prefab using Guid(fdcd0282fdc5335459811f79eccf3493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd83c6d1c9f231a4f675738323335fa') in 0.020164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail4.prefab
+  artifactKey: Guid(6b957ce4847a3294e86146e28f50e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/tube-detail4.prefab using Guid(6b957ce4847a3294e86146e28f50e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330966ca1f87b27e98cff4435afaeac0') in 0.022265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel2 (1).prefab
+  artifactKey: Guid(130329d5cafdb0d4b998ba14c7aa9c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/floor-panel2 (1).prefab using Guid(130329d5cafdb0d4b998ba14c7aa9c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b348c4f3ecac31f18a4fb3272aaefe77') in 0.015062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

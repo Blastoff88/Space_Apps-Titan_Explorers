@@ -1,0 +1,389 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32648 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Zac/2D blendtree animations
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49912
+Successfully changed project path to: C:/Users/Zac/2D blendtree animations
+C:/Users/Zac/2D blendtree animations
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25012] Host "[IP] 192.168.68.140 [Port] 0 [Flags] 2 [Guid] 3971872598 [EditorId] 3971872598 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-13C9S3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25012] Host "[IP] 192.168.68.140 [Port] 0 [Flags] 2 [Guid] 3971872598 [EditorId] 3971872598 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-13C9S3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zac/2D blendtree animations/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7600 (ID=0x7480)
+    Vendor:   ATI
+    VRAM:     8132 MB
+    Driver:   31.0.21024.3006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008956 seconds.
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.190 seconds
+Domain Reload Profiling: 540ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (146ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.563 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.477 seconds
+Domain Reload Profiling: 1037ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3499 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (108.1 KB). Loaded Objects now: 3967.
+Memory consumption went from 137.2 MB to 137.0 MB.
+Total: 2.438200 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.020300 ms  DeleteObjects: 0.133500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11669.196864 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/console1.prefab
+  artifactKey: Guid(25320442416db44459f8ec0194f2c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/console1.prefab using Guid(25320442416db44459f8ec0194f2c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b582bb4b0ab9ce5f930960262a3ddc5f') in 0.113859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/sign.prefab
+  artifactKey: Guid(a574a02c2c4398143aa29cbfd082e874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/sign.prefab using Guid(a574a02c2c4398143aa29cbfd082e874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b923b35677adafe0a9b66c4b914c47e') in 0.019424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/plane-detail1.prefab
+  artifactKey: Guid(51ddcbbb08c4a8e4a941f70fdcea5220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/plane-detail1.prefab using Guid(51ddcbbb08c4a8e4a941f70fdcea5220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9ba10f31f9c6b25dccb599cf405796') in 0.025903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/fabrics2.prefab
+  artifactKey: Guid(b4c230ce118b42642b83a75f908e1f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/fabrics2.prefab using Guid(b4c230ce118b42642b83a75f908e1f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98012cccee63270d2abde6091169d30b') in 0.015923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Prefabs/lamp.prefab
+  artifactKey: Guid(e458e4420a173c546935bdf6375bbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Prefabs/lamp.prefab using Guid(e458e4420a173c546935bdf6375bbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3351f63b7202c3a668243356be824d7c') in 0.016959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 85.723952 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_console_AO.tif
+  artifactKey: Guid(1cb067e2df2ab914c89c78ca5c9ed48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_console_AO.tif using Guid(1cb067e2df2ab914c89c78ca5c9ed48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d33d91ed5dbfe175d0fb1022b40f87') in 0.016731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003752 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_console_MetallicSmoothness.tif
+  artifactKey: Guid(23ebf9bbe32aa4c42bf97206a898fae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_console_MetallicSmoothness.tif using Guid(23ebf9bbe32aa4c42bf97206a898fae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864d1fa7c0f88ff59ae999fa82f4a496') in 0.014104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_floor_Normal.tif
+  artifactKey: Guid(467fc0c0f406c1e46989d96d26c3ea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_floor_Normal.tif using Guid(467fc0c0f406c1e46989d96d26c3ea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bc298d804e0c24517462a44a495e9a') in 0.017437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/lamp-illum.psd
+  artifactKey: Guid(0264e318abc1bd34dbc0a9a9fd0ee7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/lamp-illum.psd using Guid(0264e318abc1bd34dbc0a9a9fd0ee7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ea6ef3bcec91e0db4c38ebaa5299ab') in 0.010383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_walls_AO.tif
+  artifactKey: Guid(a02305a028efb2945b018586d8bf7609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_walls_AO.tif using Guid(a02305a028efb2945b018586d8bf7609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14550b2686130d2bbfffa00c80987ba') in 0.012703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_floor_AlbedoTransparency.tif
+  artifactKey: Guid(16c021b9dd096d548a0b635f57a38a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_floor_AlbedoTransparency.tif using Guid(16c021b9dd096d548a0b635f57a38a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed847543dae2330fee8719819e4fc7f') in 0.013564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_walls_AlbedoTransparency.tif
+  artifactKey: Guid(35944bf0c2be27c4b8334a4b7bf2ae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_walls_AlbedoTransparency.tif using Guid(35944bf0c2be27c4b8334a4b7bf2ae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1945ce647787ac0c60c5c3bcdffd0358') in 0.014148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_lamp_AlbedoTransparency.tif
+  artifactKey: Guid(47209d0c319244441913604222c4e719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_lamp_AlbedoTransparency.tif using Guid(47209d0c319244441913604222c4e719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3d8edc9ed1671ed4fe3c479eff9bf0') in 0.013689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_fabrics_MetallicSmoothness.tif
+  artifactKey: Guid(c90f3a895c058c74bb41e2703bcbc569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_fabrics_MetallicSmoothness.tif using Guid(c90f3a895c058c74bb41e2703bcbc569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f7563bbac030f2348008a2b7f21cfc') in 0.012017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_console_Normal.tif
+  artifactKey: Guid(c8b79f5d50ad06d4da363e5033185f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_console_Normal.tif using Guid(c8b79f5d50ad06d4da363e5033185f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f2c25308f95ba4b5024ae7faf422d5') in 0.013720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_walls_Normal.tif
+  artifactKey: Guid(f432c6c5d87cfa9468128b0ee1624fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_walls_Normal.tif using Guid(f432c6c5d87cfa9468128b0ee1624fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29737a2362abdf15389e06f9284710c') in 0.013418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_walls_MetallicSmoothness.tif
+  artifactKey: Guid(5cd8d52a9e78a3c4a8420de7f81668c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_walls_MetallicSmoothness.tif using Guid(5cd8d52a9e78a3c4a8420de7f81668c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b621d6c392afe809f9795f9a7f3aca3') in 0.012485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_floor_AO.tif
+  artifactKey: Guid(94777e1f43da5344098699e0bf9f71fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_floor_AO.tif using Guid(94777e1f43da5344098699e0bf9f71fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979f92e46c24bf2c51748bfab8f44050') in 0.012082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_fabrics_Normal.tif
+  artifactKey: Guid(1dddf0d11e08d0d4dadc281eaa17f7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Textures/cor1_low_fabrics_Normal.tif using Guid(1dddf0d11e08d0d4dadc281eaa17f7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00a5d0c8d7fb4eb01bbae9e87af83bd') in 0.013024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.046807 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Materials/fabrics.mat
+  artifactKey: Guid(63423226d98d4a146a549b456d91b7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Materials/fabrics.mat using Guid(63423226d98d4a146a549b456d91b7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e41beb0cce5c3f0508ab0a570518143') in 0.028856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Materials/floor.mat
+  artifactKey: Guid(67e16ba9929f794459e681b8997d8da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Materials/floor.mat using Guid(67e16ba9929f794459e681b8997d8da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dea079db2ef433321a10e6abd131cbe') in 0.019255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Materials/plane.mat
+  artifactKey: Guid(92918f0f2a13de74a92f61a7bb46c7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Materials/plane.mat using Guid(92918f0f2a13de74a92f61a7bb46c7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7647b17d9b52975d56f0a605689cc75f') in 0.008190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Materials/sealing clean.mat
+  artifactKey: Guid(2fc006b16ca26814d97beef43e13828e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Materials/sealing clean.mat using Guid(2fc006b16ca26814d97beef43e13828e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255f2836c054a9fd3cbc5259dfa9ade3') in 0.014181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Materials/lamp.mat
+  artifactKey: Guid(34fb0347b2f3a074a8efb6ceb111e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Materials/lamp.mat using Guid(34fb0347b2f3a074a8efb6ceb111e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec271ca69333e9cab8c6274ca7c608e') in 0.015401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.620759 seconds.
+  path: Assets/Obligatory Scifi Corridor 01/Models/sign_low.FBX
+  artifactKey: Guid(864d2843b47edd54db5c54f98c25189a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obligatory Scifi Corridor 01/Models/sign_low.FBX using Guid(864d2843b47edd54db5c54f98c25189a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ca5b56d938becdff6ea92852583fc8') in 0.046360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
