@@ -1,1 +1,3 @@
 Link to game demo: https://youtu.be/DcNTf4HSIYU?si=955dQxbL9-esgxVQ
+
+If you want to play the game the .exe may work, but it could throw an unkown error.
